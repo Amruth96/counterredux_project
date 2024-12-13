@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import CounterRedux, { countReducer } from './components/counterRedux'; // Import countReducer here
+import CounterRedux, { countReducer } from './components/counterRedux'; 
 
 const store = createStore(countReducer); // Pass the countReducer to createStore
 
